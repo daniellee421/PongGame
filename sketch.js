@@ -141,10 +141,10 @@ function crazyCollision(){
 
 }
 function whoWon(){
-  if(score1== 10){
+  if(score1== 15){
     textSize(40);
     text("Player 1 has won!", 50, 250);
-  }else if(score2 == 10){
+  }else if(score2 == 15){
     textSize(40);
     text("Player 2 has won!", 50, 250);
   }  
@@ -159,7 +159,7 @@ function textDisplay(){
   text(score2,340,25);
 }
 function winnerPlayer(){
-  if(score1 == 10 || score2 == 10){
+  if(score1 == 15 || score2 == 15){
     textSize(50);
     text("Game Over!", 70, 200);
     whoWon();
@@ -182,7 +182,7 @@ function showPeddles(){
   //l_p.update();
 }  
 function whichBall(){
-  if(score1 >= 2 || score2 >= 2)
+  if(score1 >= 10 || score2 >= 10)
   {
     
     crazyball.show();
