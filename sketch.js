@@ -9,7 +9,7 @@ let score2 = 0;
 
 function setup() {
   
-  createCanvas(400, 400);
+  createCanvas(800, 800);
   rectMode(CENTER);
   l_p= new Peddle(10);
   r_p = new Peddle(390);
@@ -18,6 +18,7 @@ function setup() {
 }
 function draw() 
 {
+  scale(2);
   //text display for players and score
   textDisplay();
   
