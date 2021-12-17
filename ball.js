@@ -15,7 +15,7 @@ class Ball
     this.x +=this.vx;
   }
   
-  update()
+  update() // if hits the top or bottom of screen
   {
     if(this.y>=height || this.y<=0)
     {

@@ -6,13 +6,7 @@ class crazyBall extends Ball{
     
   }
   
-  move()
-  {
-    
-    this.y +=this.vy;
-    this.x +=this.vx;
-  } 
-  
+
   update()
   {
     if(this.y>=height || this.y<=0)
@@ -20,11 +14,7 @@ class crazyBall extends Ball{
       this.vy *= -1.5;
     }
   }
-  reset()
-  {
-    this.x = 200;
-    this.y = 100;
-  }
+
   show()
   {
     fill(this.c);
