@@ -11,17 +11,15 @@ class Ball
   
   move()
   {
-    this.y +=this.vy;
-    this.x +=this.vx;
-  }
-  
-  update() // if hits the top or bottom of screen
-  {
     if(this.y>=height || this.y<=0)
     {
       this.vy *= -1;
     }
+    this.y +=this.vy;
+    this.x +=this.vx;
   }
+  
+  
   reset()
   {
     this.x = 200;

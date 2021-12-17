@@ -188,7 +188,7 @@ function whichBall(){
     
     crazyball.show();
     crazyball.move();
-    crazyball.update();
+    //crazyball.update();
 
     //if ball goes outside
     crazyBarrier();
@@ -203,7 +203,7 @@ function whichBall(){
 
     ball.show();
     ball.move();
-    ball.update();
+    //ball.update();
 
     //if ball goes outside
     ballBarrier();
